@@ -1,57 +1,95 @@
-body { text-align: center; 
-background: darkgrey;
+body {
+	text-align: center;
+	background: skyblue;  /* fallback for old browsers */
+	font-family: 'Quicksand', sans-serif;
+
+	background-color: skyblue;
+	margin: 0 auto;
 }
-h1 {color: black;}
-h2 {color: grey;}
-ul {text-align: left;}
 
 
-
-
-
-
-.frame {
-	background: whitesmoke;
-	border: dashed 10px blueviolet;
-	border-radius: 50px ;
-	padding: 50px ;
-	margin: 50px;
-	box-shadow: 10px 10px 50px grey;
-  }
+.my-navbar {
+	width: 100%;
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 .avatar {
-	width: 250px;
-	height: 250px;
-	border-radius: 250px;
-	object-fit: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
 	box-shadow: 10px 10px 10px grey;
-
 }
-
-
-.galery {
-	display: flex: ;
-	justify-content: space-around;
-	height: 300px;
+.grandephoto {
 	align-items: center;
-
 }
 
-.map {
+
+h1 {
+	color: skyblue; 
+	font-family: arial;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	color: black;
+}
+
+a {
+	color: white;
+}
+
+
+ul	{
+	text-align: left;
+}
+
+.frame {
+	background: #C2DEDC;
+	border: solid 2px white;
+	border-radius: 25px;
+	padding: 50px;
+	margin: 50px;
+	box-shadow: 10px 10px 10px grey;
 	display: flex;
-	justify-content: space-around;
-	
-}
-
-.mynavbar{background-color: ivory; 
-	display: flex; 
-	justify-content: space-between; 
+	flex-direction: column;
 	align-items: center;
+}
 
+.frame2 {	
+	background: #C2DEDC;
+	border: solid 2px white;
+	border-radius: 25px;
+	padding: 25px;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.photos {
+	display: flex;
+	justify-content: space-between;	
+}
+
+
+.rdv {
+	color: white;
+	justify-content: space-around;
+	background: skyblue; 
 }
 
 
 
-.links{ margin-right: 30px;
-}
+
+
 
